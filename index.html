@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Final Project (1)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Final Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7517,11 +7517,11 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Author">Author<a class="anchor-link" href="#Author">¶</a></h2><ul>
+<h1 id="Author">Author<a class="anchor-link" href="#Author">¶</a></h1><ul>
 <li>Name: Hsieh, Wang-Lin 謝旺霖</li>
 <li>Student ID: 41341126S</li>
 <li>Email: a0976802947@gmail.com</li>
-<li>Group Menber: no other menbers</li>
+<li>Group Menber: no other members</li>
 </ul>
 </div>
 </div>
@@ -7533,7 +7533,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Dataset">Dataset<a class="anchor-link" href="#Dataset">¶</a></h2><p><a href="https://www.kaggle.com/datasets/taweilo/taiwan-air-quality-data-20162024">Taiwan Air Quality Index Data 2016~2024</a></p>
+<h1 id="Dataset">Dataset<a class="anchor-link" href="#Dataset">¶</a></h1><p><a href="https://www.kaggle.com/datasets/taweilo/taiwan-air-quality-data-20162024">Taiwan Air Quality Index Data 2016~2024</a></p>
 <p>The Air Quality Index (AQI) is a standardized indicator used to measure air quality in relation to various pollutants. The AQI levels range from 0 to 500, with higher values indicating worse air quality and potential health risks. The pollutants tracked in this dataset include: PM2.5, PM10, SO2, NOx, CO and O3.</p>
 </div>
 </div>
@@ -7545,7 +7545,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Intoduction-to-My-Projecct">Intoduction to My Projecct<a class="anchor-link" href="#Intoduction-to-My-Projecct">¶</a></h2><p>We're curious about which county has the highest average AQI and which one has recorded the highest AQI ever. To find out, we'll create two charts: one showing the average AQI and another showing the highest AQI across the counties.</p>
+<h1 id="Intoduction">Intoduction<a class="anchor-link" href="#Intoduction">¶</a></h1><p>We're curious about which county has the highest average AQI and which one has recorded the highest AQI ever. To find out, we'll create two charts: one showing the average AQI and another showing the highest AQI across the counties.</p>
 <p><a href="https://yanggeng1230.github.io/DSCP-Final-Project/">The Github page of this project</a></p>
 </div>
 </div>
@@ -7557,7 +7557,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Loading-Data">Loading Data<a class="anchor-link" href="#Loading-Data">¶</a></h3>
+<h2 id="Loading-Data">Loading Data<a class="anchor-link" href="#Loading-Data">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7836,7 +7836,7 @@ memory usage: 1.1+ GB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Cutting-Necessary-Columns">Cutting Necessary Columns<a class="anchor-link" href="#Cutting-Necessary-Columns">¶</a></h3><h4 id="Pseudocode">Pseudocode<a class="anchor-link" href="#Pseudocode">¶</a></h4><ol>
+<h2 id="Cutting-Necessary-Columns">Cutting Necessary Columns<a class="anchor-link" href="#Cutting-Necessary-Columns">¶</a></h2><h3 id="Pseudocode">Pseudocode<a class="anchor-link" href="#Pseudocode">¶</a></h3><ol>
 <li><p>Select the <code>'date'</code>, <code>'sitename'</code>, <code>'county'</code>, and <code>'aqi'</code> columns, and store them in a new variable called <strong>subset</strong>.</p>
 </li>
 <li><p>Display basic description of <strong>subset</strong>.</p>
@@ -7984,8 +7984,8 @@ dtype: int64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Average-AQI-by-County">Average AQI by County<a class="anchor-link" href="#Average-AQI-by-County">¶</a></h3><p>We found that Kaohsiung City has the highest average AQI. Among the counties with average AQI higher than 60, all except Kinmen and Lienchiang are located in southern Taiwan, which suggests that people living in southern Taiwan may face higher health risks.</p>
-<h4 id="Pseudocode">Pseudocode<a class="anchor-link" href="#Pseudocode">¶</a></h4><ol>
+<h2 id="Average-AQI-by-County">Average AQI by County<a class="anchor-link" href="#Average-AQI-by-County">¶</a></h2><p>We found that Kaohsiung City has the highest average AQI. Among the counties with average AQI higher than 60, all except Kinmen and Lienchiang are located in southern Taiwan, which suggests that people living in southern Taiwan may face higher health risks.</p>
+<h3 id="Pseudocode">Pseudocode<a class="anchor-link" href="#Pseudocode">¶</a></h3><ol>
 <li>Calculate the average AQI for each county, sort the results, and store them in a new variable called <strong>county_mean</strong>.</li>
 <li>Use <strong>county_mean</strong> to create a bar chart with the average AQI on the x-axis and the counties on the y-axis.</li>
 </ol>
@@ -8065,8 +8065,8 @@ Name: aqi, dtype: float64
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Highest-AQI-by-County">Highest AQI by County<a class="anchor-link" href="#Highest-AQI-by-County">¶</a></h3><p>We found that both Changhua and Yunlin counties have recorded the highest AQI ever (500.0), which suggests that people living in these areas should pay attention to air quality on certain days.</p>
-<h4 id="Pseudocode">Pseudocode<a class="anchor-link" href="#Pseudocode">¶</a></h4><ol>
+<h2 id="Highest-AQI-by-County">Highest AQI by County<a class="anchor-link" href="#Highest-AQI-by-County">¶</a></h2><p>We found that both Changhua and Yunlin counties have recorded the highest AQI ever (500.0), which suggests that people living in these areas should pay attention to air quality on certain days.</p>
+<h3 id="Pseudocode">Pseudocode<a class="anchor-link" href="#Pseudocode">¶</a></h3><ol>
 <li>Find the highest AQI for each county, sort the results, and store them in a new variable called <strong>county_max</strong>.</li>
 <li>Use <strong>county_max</strong> to create a bar chart with the highest AQI on the x-axis and the counties on the y-axis.</li>
 </ol>
